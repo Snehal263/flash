@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.clc.java.HibernatePrac.Customer" table = "CUSTOMER_INFO">
+      <id name = "custId" column = "CUST_ID" type = "int" ></id>
+      <property name = "custName" column = "CUST_NAME" type = "string"></property>
+      <property name = "custAddress" column = "CUST_ADDRESS" type = "string"></property>
+      <property name = "custBalance" column = "CUST_BALANCE" type = "int"></property>
+      <property name = "custAge" column = "CUST_AGE" type = "int"></property>
+   </class>
+</hibernate-mapping>
